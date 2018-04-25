@@ -1,5 +1,5 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
 require 'devise_cosign_authenticatable/version'
 
 Gem::Specification.new do |s|
